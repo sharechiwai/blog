@@ -3,15 +3,16 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseURL: 'https://example.com/' # Website URL
+title: ShareChiWai Notes # Website name
+baseURL: '/' # Website URL
+copyright: 'sharechiwai' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
 ############################
 
 defaultContentLanguage: en
-hasCJKLanguage: false
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
@@ -65,6 +66,11 @@ related:
       weight: 100
     - name: categories
       weight: 70
+  # Enable analytics by entering your Google Analytics tracking ID
+  googleAnalytics: "UA-6964597-13"
+
+  # Enable comments by entering your Disqus shortname
+  disqusShortname: "sharechiwai"
 security:
   _merge: deep
 sitemap:
