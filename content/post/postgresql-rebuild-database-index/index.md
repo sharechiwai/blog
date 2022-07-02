@@ -5,7 +5,7 @@ draft: false
 featured: false
 tags:
   - postgresql
-  - DatabaseMaintenancce
+  - Database Maintenancce
 categories:
   - Postgresql
 image:
