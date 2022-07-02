@@ -4,7 +4,7 @@ date: 2022-07-02T02:44:00.000Z
 draft: false
 featured: false
 tags:
-  - postgressql
+  - postgresql
 image:
   filename: featured
   focal_point: Smart
@@ -12,8 +12,9 @@ image:
 ---
 如果想幫 PostgresSQL 做個database backup  
  之後係 SQL Editor 上..load 返呢個 SQL backup file  
-我地可以用 pg_dump 去backup 個 database 用佢個 insert statement option 便可
-解決方法:
+我地可以用 pg_dump 去backup 個 database 用佢個 insert statement option 便可  
+
+**解決方法**:
 ```bash
 pg_dump --verbose --host=[`hostname`] --port=[`port`] --username=[`username`] --format=p --encoding=UTF-8 --inserts --no-owner --file [`filename`].sql -n "public" [`database_name`]
 

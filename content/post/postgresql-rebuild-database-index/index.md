@@ -4,7 +4,8 @@ date: 2022-06-27T16:00:34.494Z
 draft: false
 featured: false
 tags:
-  - postgresql;DatabaseMaintenancce
+  - postgresql
+  - DatabaseMaintenancce
 categories:
   - Postgresql
 image:
