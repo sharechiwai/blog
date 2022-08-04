@@ -17,7 +17,7 @@ tags:
 可以用以下command 解決這個問題
 
 ```bash
-
+export ENVIRONMENT=dev
 ```
 
 Hope you find it useful
