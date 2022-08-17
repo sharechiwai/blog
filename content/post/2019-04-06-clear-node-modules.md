@@ -18,7 +18,7 @@ tags:
  yarn cache clean
 
  # npm
- npm cache clean
+ npm cache clean --force
 
  # remove node_modules folder
  rm -rf node_modules
