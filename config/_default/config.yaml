@@ -6,6 +6,7 @@
 title: ShareChiWai Notes # Website name
 baseURL: '/' # Website URL
 copyright: 'sharechiwai' # Footer text, e.g. '© {year} Me'
+org_name: 'ShareChiWai'
 
 ############################
 ## LANGUAGE
