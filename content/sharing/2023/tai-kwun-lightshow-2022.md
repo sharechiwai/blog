@@ -1,5 +1,5 @@
 ---
-title: "Tai Kwun Lightshow 2022 InnerGlow timelapse - 大館燈光展2022 綻放大館 "
+title: "Tai Kwun Lightshow 2022 InnerGlow timelapse - 大館燈光展2022 綻放大館"
 date: 2023-01-03T00:00:09.146Z
 draft: false
 featured: false
