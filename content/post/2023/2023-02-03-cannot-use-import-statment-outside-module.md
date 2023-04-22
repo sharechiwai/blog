@@ -13,14 +13,14 @@ image:
   preview_only: false
 ---
 
-嘗試起個新既 `NodeJs` project 用 `import` rather than `require` 時出現以下 `Exception`..
-`SyntaxError: Cannot use import statement outside a module`
+嘗試起個新既 `NodeJs` project 用 `import` rather than `require` 時出現以下 `Exception`..  
+`SyntaxError: Cannot use import statement outside a module`  
 
-解決方法:
-原來只要係 `package.json` 上 加返以下 property 便可..
+*解決方法:*
+原來只要係 `package.json` 上 加返以下 property 便可..  
 
 ```bash
 "type": "module",
 ```
 
-hope you find it useful
+hope you find it useful  
