@@ -16,7 +16,7 @@ image:
 記住做完 initial commit 之後就可以 用 `.gitignore` 去 ignore 呢個 file...  
 誰不知... commit 完之後 再用 gitignore 係唔 work 的  
 
-*解決方法:*
+*解決方法:*  
 用左以下 git command 去 `--assume-unchanged` 去解決..  
 
 ```bash

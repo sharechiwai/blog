@@ -16,7 +16,7 @@ image:
 嘗試起個新既 `NodeJs` project 用 `import` rather than `require` 時出現以下 `Exception`..  
 `SyntaxError: Cannot use import statement outside a module`  
 
-*解決方法:*
+*解決方法:*  
 原來只要係 `package.json` 上 加返以下 property 便可..  
 
 ```bash
