@@ -30,8 +30,6 @@ npx eslint --fix --ext .js .
 同埋可以在 `package.json` 的 script 上加多一個command 就會更放便  
 
 ```json
-e.g.
-```
   "scripts": {
     "dev": "next dev -p 3333",
     "build": "next build",
