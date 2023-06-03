@@ -1,5 +1,5 @@
 ---
-title: vitest.con.js
+title: vitest.config.js
 date: 2023-03-02T00:00:00.000Z
 draft: false
 featured: false
