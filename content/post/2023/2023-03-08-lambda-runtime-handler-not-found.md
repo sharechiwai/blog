@@ -1,5 +1,5 @@
 ---
-title: Runtime.HandlerNotFound: index.handler is undefined or not exported
+title: Runtime.HandlerNotFound index.handler is undefined or not exported
 date: 2023-03-05T00:00:00.000Z
 draft: false
 featured: false
