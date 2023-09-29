@@ -3,6 +3,14 @@ title: Runtime.HandlerNotFound index.handler is undefined or not exported
 date: 2023-03-05T00:00:00.000Z
 draft: false
 featured: false
+tags:
+  - AWS
+  - Amazon Web Service
+  - Lambda
+image:
+  filename: featured
+  focal_point: Smart
+  preview_only: false
 ---
 最近係公司度做返D house keeping 野...  
 其中我地有一個service 係用`Lambda` 寫的...  
