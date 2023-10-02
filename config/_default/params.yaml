@@ -16,16 +16,17 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: 'sharechiwai'
-    description: 'ShareChiWai Note'
-    twitter: 'sharechiwai'
+    local_business_type: ""
+    org_name: "sharechiwai"
+    description: "ShareChiWai Note"
+    twitter: "sharechiwai"
   analytics:
-    google_analytics: 'UA-6964597-13'
-    baidu_tongji: ''
+    google_analytics: "G-MPRQC0QNY8"
+    google_tag_manager: "G-MPRQC0QNY8"
+    baidu_tongji: ""
   verification:
-    google: ''
-    baidu: ''
+    google: ""
+    baidu: ""
 
 # Site header
 
@@ -43,7 +44,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Sharechiwai. This work is licensed under {license}'
+    notice: "© {year} Sharechiwai. This work is licensed under {license}"
     license:
       enable: true
       allow_derivatives: false
@@ -53,8 +54,8 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: "Jan 2, 2006"
+  time_format: "3:04 PM"
   address_format: en-us
 
 # Site features
@@ -70,7 +71,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/sharechiwai/blog'
+    url: "https://github.com/sharechiwai/blog"
     content_dir: content
     branch: master
   avatar:
@@ -80,22 +81,22 @@ features:
     post: true
     blog: true
   comment:
-    provider: 'Disqus'
+    provider: "Disqus"
     disqus:
-      shortname: 'sharechiwai'
+      shortname: "sharechiwai"
       show_count: true
     commento:
-      url: ''
+      url: ""
   search:
     provider: wowchemy
     algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
+      app_id: ""
+      api_key: ""
+      index_name: ""
       show_logo: false
   map:
-    provider: ''
-    api_key: ''
+    provider: ""
+    api_key: ""
     zoom: 15
 
 # Extensions
