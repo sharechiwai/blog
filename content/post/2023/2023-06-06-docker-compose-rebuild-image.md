@@ -16,7 +16,7 @@ image:
 上一個post 分享了怎樣 用 docker command 去  
 Stop and remove Docker image  
 (因為嘗試用 `docker compose build` 時 docker image 沒有更新到) 
-[Docker daemon conflict unable to remove repository reference (must force)](https://sharechiwai.com/post/2023/2023-06-05-how-to-shut-down-windows-properly/)  
+[Docker daemon conflict unable to remove repository reference (must force)](https://sharechiwai.com/post/2023/2023-06-05-docker-daemon-conflict-unable-remove-repo-ref/)  
 
 今日終於找到了正確的解決方法:
 
