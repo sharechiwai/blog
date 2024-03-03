@@ -10,9 +10,12 @@ main:
   - name: Blog
     url: "/post/"
     weight: 20
+  - name: Menu Venue
+    url: "/menu-venue"
+    weight: 30
   - name: Sharing
     url: "/sharing"
-    weight: 30
+    weight: 50
   - name: Contact
     url: "#contact"
     weight: 60
