@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: Event 活動
 cms_exclude: true
 
 # View.
