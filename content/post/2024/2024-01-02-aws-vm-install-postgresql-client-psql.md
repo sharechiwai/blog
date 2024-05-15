@@ -49,7 +49,7 @@ categories:
 而EC2 上面的 VM 是這個 version 的 `Amazon Linux 2023 AMI for the EC2`  
 所以安裝 `PostgreSQL Client` 的方法也有些不同  
 
-**解決方法**
+**解決方法**  
 可以執行以下指拎到安裝 (我的是 PostgreSQL Client 15)
 ```bash
 sudo dnf install postgresql15
