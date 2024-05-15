@@ -41,7 +41,7 @@ categories:
 
 **解法方法:**  
 ```
-select pg_size_pretty(pg_database_size('[TABLE_NAME]'));
+select pg_size_pretty(pg_table_size('[TABLE_NAME]'));
 ```
 
 ![Query to check PostgreSQL table size](/media/2024/table-size.png  "Query to check PostgreSQL table size") 
