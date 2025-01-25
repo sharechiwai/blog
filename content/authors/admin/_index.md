@@ -37,7 +37,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/sharechiwai
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/chiwai/
 
 interests:
   - Performance Tuning
