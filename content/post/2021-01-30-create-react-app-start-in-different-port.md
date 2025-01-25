@@ -1,6 +1,6 @@
 ---
 title: "How to run reactjs in different port"
-date: 2021-01-30:00:00+08:00
+date: 2021-01-30T00:00:00+08:00
 author: ShareChiWai
 layout: post
 categories:
