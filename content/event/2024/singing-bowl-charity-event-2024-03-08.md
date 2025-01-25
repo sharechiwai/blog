@@ -1,25 +1,36 @@
 ---
 title: 救狗之家 x 頌缽療癒 2024-03-08 Singing Bowl x HKDR
 subtitle: 頌缽療癒 慈善活動
-draft: true
+event: Charity
+event_url: https://www.instagram.com/hkhealingbowl/ 
 
 # Summary for listings and search engines
 summary: 頌缽療癒 慈善活動 全數捐出 HKDR All collection will be donate to Hong Kong Dog Rescue
 
+abstract: '瞓覺，享受療癒，祝福所有毛孩 頌缽療癒 慈善活動 全數捐出 HKDR All collection will be donate to Hong Kong Dog Rescue'
+
+location: 尖沙咀星光行  Star House, TST  
+
+image:
+  caption: 'Image credit: [**Harrel Law**](https://scontent.fhkg4-1.fna.fbcdn.net/v/t39.30808-6/428685740_10160999641349210_2017726863444186128_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xxNXK9WhdVwQ7kNvgGWba0Z&_nc_zt=23&_nc_ht=scontent.fhkg4-1.fna&_nc_gid=AuOG5j2ZXE848wltpW7_ghC&oh=00_AYDH8Jg6F6h2OQst8N2ItNe2ws-gvfWl8aSYqDSUOeXrCw&oe=679A1A5D)'
+  focal_point: Right
+
 # Link this post with a project
-projects: []
+projects: 
+  - 頌缽療癒
+  - 慈善活動
 
 # Date published
-date: '2024-03-04T00:00:00Z'
+publishDate: '2024-03-04T00:00:00Z'
 
-# Date updated
-lastmod: '2024-03-04T00:00:00Z'
-
-# Is this an unpublished draft?
-draft: false
+date: '2024-03-08T19:00:00+08:00'
+date_end: '2024-03-08T20:30:00Z'
+all_day: false
 
 # Show this page in the Featured widget?
 featured: false
+
+
 
 authors:
   - admin

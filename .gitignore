@@ -1,10 +1,37 @@
-# IDEs
-.idea/
+# Hugo specific files
+/public/
+/resources/_gen/
+/resources/_gen/*
+/resources/*.json
+/resources/*.toml
 
-# Hugo
-resources/
-public/
-jsconfig.json
+# Hugo cache
+/hugo_cache/
+/hugo_build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using npm or yarn)
 node_modules/
-go.sum
-.hugo_build.lock
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*~
+*.bak
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables file
+.env
