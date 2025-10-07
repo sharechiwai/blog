@@ -1,10 +1,10 @@
 ---
 title: "VS Code context menu missing - VS Code 右鍵選單消失"
-summary: After updating to the latest version of VS Code (1.103), the context menu disappeared. Here's how to fix it.
+summary: "After updating to the latest version of VS Code (1.103), the context menu disappeared. Here's how to fix it."
 date: 2025-08-08
 
 image:
-  caption: 'Image credit: [**sharechiwai**](https://sharechiwai.com)'
+  caption: "Image credit: [**sharechiwai**](https://sharechiwai.com)"
 
 authors:
   - admin

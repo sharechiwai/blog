@@ -4,20 +4,19 @@ summary: "快速教你在 Windows / macOS / Linux 找出系統上已安裝的 Py
 date: 2025-08-10
 
 authors:
-	- admin
+  - admin
 
 tags:
-	- Python
-	- 環境
-	- 檢查
-	- Windows
-	- macOS
-	- Linux
+  - Python
+  - 環境
+  - 檢查
+  - Windows
+  - macOS
+  - Linux
 
 categories:
-	- Reference
-	- Python
----
+  - Reference
+  - Python
 ---
 
 在寫 Python 或部署小工具時，常常需要知道電腦上到底安裝了哪些 Python 版本。
