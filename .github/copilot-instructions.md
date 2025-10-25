@@ -66,3 +66,109 @@
 ---
 
 If anything above is unclear or you want more examples (e.g., common front-matter templates, important shortcodes, or which layouts are used for posts), tell me which area to expand and I'll iterate.
+
+## New blog post template (how to create a post)
+
+Add this short template and rules so automated agents (like Copilot) and contributors produce consistent posts.
+
+- Location and filename
+  - Put posts under `content/post/`.
+  - Use a dated subfolder for year and a slugged folder for the post, e.g.:
+    - `content/post/2025/2025-08-10-how-to-check-python-available-on-ur-device/index.md`
+  - Filenames: use `index.md` inside the post bundle folder. Folder and slug should be lower-case, hyphen-separated, ASCII-friendly.
+
+- Front matter (required fields)
+  - Use YAML front matter with at least these fields:
+
+```yaml
+---
+title: "Descriptive post title"
+summary: "Short one-line summary used on index and social cards"
+date: 2025-08-10
+authors:
+  - admin
+tags:
+  - Tag1
+  - Tag2
+categories:
+  - Category1
+image:
+  caption: "Optional image caption or credit"
+---
+```
+
+- Recommended optional fields
+  - `draft: true` to keep a post out of production builds until ready.
+  - `aliases:` to add legacy URLs (if you move or rename posts).
+
+- Content and media
+  - Put post-level images either in the same bundle folder (next to `index.md`) or under `assets/media/`.
+  - Use relative paths for images in the bundle, e.g. `![Caption](vscode-context-menu.png)` when the image is in the same folder.
+  - Prefer Hugo shortcodes for rich content when available (see `layouts/shortcodes/`).
+
+- Slug / permalink behavior
+  - The site uses the date and slug to build permalinks. Keep the date in front-matter and use a slug matching the folder name.
+
+- Preview & build (developer workflow)
+  - Start dev server:
+    - `hugo server --disableFastRender --bind=127.0.0.1 --port=1313`
+  - Local production-like build and index rebuild:
+    - `hugo --gc --minify -b http://example.com && npx pagefind --source 'public'`
+
+- Small checklist for new posts
+  1. Create `content/post/YYYY/YYYY-MM-DD-slug/index.md` and add front matter.
+  2. Add images to the same folder or `assets/media/` and verify paths.
+  3. Run `hugo server` and check the post renders and metadata (title, summary, author).
+  4. If ready for publish, remove `draft: true` (or ensure it's absent) and commit.
+
+- Examples
+  - Existing posts follow this pattern, e.g. `content/post/2025/2025-08-10-how-to-check-python-available-on-ur-device/index.md` and `content/post/2025/2025-08-06-vs-code-context-menu-missing/index.md` (see `content/post/2025/` for samples).
+
+If you'd like, I can also add a small helper script/template file under `scripts/` (or a `post_template.md`) that contributors can copy to create new posts consistently.
+
+## How to ask Copilot to scaffold a new post
+
+If you want Copilot (or any automated agent) to create a new post scaffold for you, use this exact filename/slug format so the tooling and humans can follow the same pattern.
+
+- Provide a folder name formatted as: `YYYY-MM-DD-your-slug` (e.g. `2025-08-15-github-copilot-generate-blog-post`).
+- The agent will create a folder under `content/post/<YEAR>/` (e.g. `content/post/2025/2025-08-15-github-copilot-generate-blog-post`) and add an `index.md` file inside it.
+- The `index.md` will contain YAML front matter with placeholders you can fill in or ask the agent to populate for you.
+
+Example prompt you can give the agent (exactly):
+
+"Create a new blog post scaffold: 2025-08-15-github-copilot-generate-blog-post. Leave placeholders for TITLE, SUMMARY, DATE, AUTHORS, TAGS, CATEGORIES and include content sections (Introduction, Steps, Conclusion)."
+
+What the scaffold will contain (index.md example):
+
+```md
+---
+title: "TITLE"
+summary: "SUMMARY"
+date: 2025-08-15
+authors:
+  - admin
+tags:
+  - TAG1
+  - TAG2
+categories:
+  - Category1
+image:
+  caption: "IMAGE CAPTION"
+draft: true
+---
+
+# Introduction
+
+[Write a short introduction here.]
+
+# Steps
+
+1. Step one
+2. Step two
+
+# Conclusion
+
+[Write a short conclusion here.]
+```
+
+The agent will create the folder and `index.md` scaffold exactly like the example. After that, you can either fill in the placeholders yourself or ask the agent to populate them from a short description.
