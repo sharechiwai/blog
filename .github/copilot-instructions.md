@@ -172,3 +172,62 @@ draft: true
 ```
 
 The agent will create the folder and `index.md` scaffold exactly like the example. After that, you can either fill in the placeholders yourself or ask the agent to populate them from a short description.
+
+## Intelligent blog post creation workflow
+
+When the user asks for help creating a blog post with specific title and content, follow this enhanced workflow to generate a complete, well-formatted post:
+
+### Step 1: Generate complete YAML front matter
+- Use the provided title exactly as given by the user
+- Generate an appropriate `summary` (1-2 sentences) based on the content
+- Set the `date` to match the folder structure or current date
+- Add `authors: [admin]` by default
+- Generate relevant `tags` and `categories` based on the content topic
+- Include `image: caption: ""` placeholder
+- Set `draft: false` unless user specifies otherwise
+
+### Step 2: Format the content using Markdown
+- Preserve the user's exact wording and meaning
+- Convert URLs to clickable Markdown links: `[example.com](https://example.com)`
+- Add appropriate paragraph breaks for readability
+- Use blockquotes `>` for introductory or highlighted statements
+- Apply emphasis where it enhances readability:
+  - **Bold** for key terms or important points
+  - *Italics* for emphasis or tone
+- Structure content with headers if appropriate
+
+### Example transformation:
+User provides:
+```
+title: 分享日常生活既體驗
+content: 今日呢個blog post 是用來介紹我將用會sharechiwai.com 來分享...
+```
+
+Agent creates:
+```yaml
+---
+title: "分享日常生活既體驗"
+summary: "用 [sharechiwai.com](https://sharechiwai.com) 記錄與分享平日生活的體驗，方便回顧與保存記憶。"
+date: 2025-08-13
+authors:
+  - admin
+tags:
+  - sharing
+  - personal
+  - life
+categories:
+  - sharing
+image:
+  caption: ""
+draft: false
+---
+
+> 今日呢個blog post 是用來介紹我將用會[sharechiwai.com](https://sharechiwai.com) 來分享...
+```
+
+### Key principles:
+1. **Never rewrite or paraphrase** the user's content - preserve their exact words
+2. **Generate contextually appropriate** front matter fields
+3. **Format for readability** using Markdown features
+4. **Make URLs clickable** automatically
+5. **Ask for confirmation** only if the content structure is unclear
