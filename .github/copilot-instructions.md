@@ -1,233 +1,118 @@
-## Repo overview (big picture)
+## Copilot Instructions (Concise Guide)
 
-- This site is a Hugo static site built from the Hugo Blox "Academic CV" starter. The repo contains content (Markdown), Hugo configuration under `config/_default/`, theme/layouts/partials under `layouts/` and static/public assets in `assets/` and `static/`.
-- Build output is written to `public/` and deployed via Netlify (see `netlify.toml`). Hugo modules declared in `go.mod` provide theme/plugins (e.g. `blox-tailwind`, `blox-plugin-netlify`).
+### Big Picture
+- Hugo static site using the Hugo Blox "Academic CV" template.
+- Content-driven architecture: Markdown bundles under `content/`; theme/layouts in `layouts/`; config in `config/_default/`.
+- Build artifacts go to `public/` and are deployed via Netlify with Pagefind search indexing.
 
-## Primary workflows (what you'll be asked to do)
+### Core Workflows
+- Dev server: `hugo server --disableFastRender --bind=127.0.0.1 --port=1313`.
+- Production build: `hugo --gc --minify -b $URL && npx pagefind --source 'public'` (Netlify).
+- Preview/branch deploys: use `--buildFuture` and set base to `$DEPLOY_PRIME_URL`.
+- Hugo version pinned: 0.136.5 (see `hugoblox.yaml`, `netlify.toml`). Match locally.
 
-- Local dev server: use Hugo's server to preview changes.
-  - Example: `hugo server --disableFastRender` (Hugo v0.136.5 is specified in `hugoblox.yaml` and `netlify.toml`).
-- Production build (what CI/Netlify runs):
-  - Netlify build command: `hugo --gc --minify -b $URL && npx pagefind --source 'public'` (see `netlify.toml`).
-  - For deploy previews and branch deploys Netlify uses `--buildFuture` and sets the base to `$DEPLOY_PRIME_URL`.
+### Files & Conventions
+- `config/_default/hugo.yaml`: global site settings (permalinks, taxonomies, outputs).
+- `config/_default/params.yaml`: site parameters used by templates (themes, math, code, toggles).
+- `content/`: sections (`post/`, `event/`, `project/`, `sharing/`, etc.). Use YAML front matter with `title`, `summary`, `date`, `authors`, `tags`, `categories`, `image.caption`.
+- `layouts/` and `layouts/partials/`: customize UI and shortcodes. Prefer shortcodes over raw HTML.
+- `assets/`: Hugo Pipes processed assets; `static/`: copied verbatim. Do not edit `public/` (generated).
 
-## Important files and conventions
+### Project Patterns
+- Content-first edits in `content/`; layout/theme tweaks in `layouts/` and `config/_default/`.
+- Pagefind index must run after builds: `npx pagefind --source 'public'`.
+- Netlify env uses `HUGO_ENABLEGITINFO=true` and `HUGO_ENV=production` which can affect GitInfo-based templates.
 
-- `config/_default/hugo.yaml` — main Hugo configuration (site title, permalinks, taxonomies, output formats). Modify here for global Hugo settings.
-- `config/_default/params.yaml` — site parameters and feature toggles (themes, math, code highlighting). Many templates read this; use it to enable site features.
-- `content/` — all site content in Hugo page bundles and sections. Posts live under `content/post/` and dated posts use subfolders by year.
-- `layouts/partials/` and `layouts/` — theme templates. Small UI changes are often implemented here.
-- `assets/` — pipeline assets processed by Hugo Pipes (CSS, JS, images used as resources).
-- `public/` — generated site (committed here as a published snapshot) — treat as generated output; do not edit directly.
-- `go.mod` / `go.sum` — Hugo modules used by the theme and plugins. If you add or update modules, run `hugo mod get` locally.
+### Examples (do-this-first)
+- Start local preview: `hugo server --disableFastRender --bind=127.0.0.1 --port=1313`.
+- Local prod-like build: `hugo --gc --minify -b http://example.com && npx pagefind --source 'public'`.
+- Update modules if editing `go.mod`: `hugo mod get` or `hugo mod tidy`.
 
-## Patterns and project-specific notes for AI agents
+### Formatting-Only Mode (for blog content)
+- Preserve the user's exact words; do not paraphrase or summarize.
+- Do not invent metadata: only include front matter keys explicitly provided by the user.
+- Do not add authors, tags, categories, summary, image captions unless the user specifies them.
+- Keep the language as written (no translation); retain line breaks and punctuation.
+- Convert bare URLs to Markdown links; keep any headings or lists exactly as the user wrote.
+- Respect the section path the user gives (e.g., `post/` or `sharing/`). If not provided, ask which section and date/slug.
+- Images: use only the filenames/paths the user supplies. Do not add alt text beyond their wording.
+ - Emphasis (on request): bold obvious key terms to improve readability while preserving wording. Focus on product names (e.g., SendGrid Email API), settings/permissions (e.g., Mail Send/FULL, Stats/READ), and key actions (e.g., send Email, Email Quota). Avoid over-emphasis (aim for 1–2 bold terms per line) and do not add new words.
 
-- Content-first: prefer making content changes in `content/` (Markdown + front matter). Example front matter uses `date`, `title`, `tags`, and `categories` — maintain YAML format and permalink structure.
-- Shortcodes & widgets: site uses Hugo shortcodes and customized partials. When adding content, prefer shortcodes (see `layouts/shortcodes/`) over raw HTML where available.
-- Search integration: repo uses Pagefind (`npx pagefind --source 'public'`) to generate client-side search indexes. Any change affecting public HTML should be followed by Pagefind run in the build.
-- Static assets vs assets pipeline:
-  - Use `assets/` when you want Hugo Pipes to process files (e.g. Tailwind, SASS).
-  - Use `static/` for raw files that should be copied unchanged to the site root.
-- Default Hugo version pinned: Hugo v0.136.5 — match this locally (via hugo binary or environment) to prevent unexpected differences in rendering.
+#### Emphasis Example
+- Before: 最近開始認真地使用 SendGrid Email API 來send Email
+- After: 最近開始認真地使用 **SendGrid Email API** 來**send Email**
 
-## Commands the developer will run (concrete examples)
+- Before: - Mail Send - FULL
+- After: - **Mail Send** - **FULL**
 
-- Start dev server (watch mode):
-  - `hugo server --disableFastRender --bind=127.0.0.1 --port=1313`
-- Build for production locally (approximate Netlify command):
-  - `hugo --gc --minify -b http://example.com && npx pagefind --source 'public'`
-- Update modules (if you update go.mod):
-  - `hugo mod get` (or `hugo mod tidy`) then rebuild.
+### New Post Scaffold (minimal)
+- Path: use the section and date/slug the user specifies, e.g. `content/post/YYYY/YYYY-MM-DD-slug/index.md` or `content/sharing/YYYY/YYYY-MM-DD-slug/index.md`.
+- Front matter: include only fields the user provides. Do not add defaults.
+  ```yaml
+  ---
+  title: "<user-provided>"
+  date: <user-provided>
+  # Optional fields below appear only if provided by the user:
+  # summary:
+  # authors:
+  # tags:
+  # categories:
+  # image:
+  #   caption:
+  # draft:
+  ---
+  ```
+- Place images next to `index.md` or under `assets/media/` if the user asked. Use their provided relative paths.
 
-## Debugging tips and gotchas for agents
+### Format Existing Post (normalize content)
+- Trigger phrases: "format this blogpost", "format this markdown", or "format the content of <path> to match existing posts".
+- Scope: content-only formatting. Do not change, add, remove, or infer front matter keys unless explicitly instructed.
+- Rules (apply consistently across all posts):
+  - Preserve the user's exact words; do not paraphrase or translate.
+  - Insert blank lines between logical paragraphs for readability.
+  - Normalize lists: use `-` for bullets, one item per line; add a blank line before and after lists.
+  - Convert bare URLs to Markdown links, preserving the original text.
+  - Wrap provided code in fenced blocks (```lang ... ```), detecting language when obvious (e.g., `bash`, `powershell`, `json`, `tsql`). If unsure, use plain fenced blocks without a language hint.
+  - Keep headings exactly as written; do not add or remove titles in the body to mirror front matter.
+  - Images: keep exactly as provided; do not add alt text beyond the user's wording; do not change paths.
+  - Maintain YAML front matter as-is: order and spacing can be left unchanged unless the user requests an order; keep `date` in ISO format (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssZ) as provided.
+  - For bundle files (`.../index.md`), ensure only one front matter block at the top and no additional `---` separators in the body.
+- Path handling:
+  - If the file is already a bundle (e.g., `content/post/YYYY/YYYY-MM-DD-slug/index.md`), keep its location and slug unchanged.
+  - If the file is a single `.md` under `content/post/`, do not move it unless the user asks; only format the content.
+- Quick usage examples:
+  - "Format the content of `content/post/2026/2026-01-22-sendgrid-api-setup/index.md` following the existing post pattern."
+  - "Normalize lists, link bare URLs, and fence any code blocks in `content/post/2009-03-29.md` without changing front matter."
 
-- If pages render differently locally vs Netlify, confirm Hugo version and environment flags (HUGO_ENV, HUGO_ENABLEGITINFO). Netlify's `HUGO_ENABLEGITINFO=true` can alter GitInfo-based templates.
-- When editing templates, clear Hugo cache or run with `--ignoreCache=false` if stale resources appear.
-- If CSS or Tailwind classes don't apply, check `assets/` processing and confirm Tailwind config in `layouts` or top-level module.
-- Pagefind requires the built `public/` directory; missing indexes are caused by build failures or a wrong base URL.
+### Paste-and-Format Workflow (auto-fill mode)
+- Trigger phrase: when the user says "create a blogpost" and provides a path like `/2026/2026-01-22-sendgrid-api-setup.md` plus content.
+- Section: if not specified, assume `post`; otherwise use the provided section.
+- File location: create `content/<section>/<YEAR>/<YYYY-MM-DD-slug>/index.md`.
+- Auto-fill front matter (only in this mode):
+  - `title`: if not provided, Title-Case the slug from filename; otherwise use the provided title exactly.
+  - `date`: derive from filename `YYYY-MM-DD`.
+  - `authors`: set to `[admin]` unless the user specifies otherwise.
+  - `summary`: generate a 1–2 sentence summary from the provided content (prefer the first paragraph). Do not add new facts; use the same language as the content.
+  - `tags`: derive 3–6 concise keywords present in the content (use exact wording, lowercase, hyphenate multi-word phrases as they appear).
+  - `categories`: choose 1–2 higher-level topics inferred from content (prefer nouns already present in the text).
+- Content rules: paste the user's content verbatim, preserve headings/lists/line breaks; convert bare URLs to Markdown links; do not paraphrase.
+  - Readable formatting (without changing wording):
+    - Insert blank lines between logical paragraphs.
+    - Normalize lists using `-` or numbered lists and ensure a blank line before/after lists.
+    - Wrap any provided code in fenced blocks (```lang ... ```), detecting language when obvious.
+    - Keep image placeholders as-is unless a real path is provided; do not invent alt text.
+    - Do not add headings, emojis, or additional sentences.
+- Example:
+  - Request: "Create a blogpost /2026/2026-01-22-sendgrid-api-setup.md with the following content: ..."
+  - Result path: `content/post/2026/2026-01-22-sendgrid-api-setup/index.md` with front matter auto-filled per above and body identical to provided content.
 
-## Integration points & external services
+### Gotchas
+- Rendering differences? Verify Hugo version and env flags (`HUGO_ENABLEGITINFO`, `HUGO_ENV`).
+- CSS not applying? Check assets pipeline (`assets/`) and purge configs.
+- Missing search? Ensure build succeeded and Pagefind ran against `public/`.
 
-- Netlify: `netlify.toml` controls build commands and plugins. The Netlify plugin `netlify-plugin-hugo-cache-resources` is configured.
-- Pagefind: client-side search index generation via NPM (`pagefind`). Ensure Node.js and npm are available in CI.
-- Hugo modules: themes and plugins are fetched via Go modules (`go.mod`). Network access required when modules change.
+### Integrations
+- Netlify: see `netlify.toml` (builds, plugin `netlify-plugin-hugo-cache-resources`).
+- Hugo modules: managed via `go.mod`. Network required if modules change.
 
-## When changing content vs layout — quick heuristic
-
-- Content change: edit files under `content/`, `assets/media/` (images), `static/` for public static files.
-- Layout/theme change: edit `layouts/`, `partials/`, or `assets/` (if affecting CSS/js pipeline), and update `config/_default/` if you change global behavior.
-
-## Example PR checklist for small edits (useful to reproduce in tasks)
-
-- Content PR: preview locally with `hugo server`; verify links and front matter; commit only content files.
-- Layout PR: run full `hugo --gc --minify -b http://example.com` and `npx pagefind --source 'public'` to reproduce Netlify build; include screenshots of resulting pages in PR if visual change.
-
----
-
-If anything above is unclear or you want more examples (e.g., common front-matter templates, important shortcodes, or which layouts are used for posts), tell me which area to expand and I'll iterate.
-
-## New blog post template (how to create a post)
-
-Add this short template and rules so automated agents (like Copilot) and contributors produce consistent posts.
-
-- Location and filename
-  - Put posts under `content/post/`.
-  - Use a dated subfolder for year and a slugged folder for the post, e.g.:
-    - `content/post/2025/2025-08-10-how-to-check-python-available-on-ur-device/index.md`
-  - Filenames: use `index.md` inside the post bundle folder. Folder and slug should be lower-case, hyphen-separated, ASCII-friendly.
-
-- Front matter (required fields)
-  - Use YAML front matter with at least these fields:
-
-```yaml
----
-title: "Descriptive post title"
-summary: "Short one-line summary used on index and social cards"
-date: 2025-08-10
-authors:
-  - admin
-tags:
-  - Tag1
-  - Tag2
-categories:
-  - Category1
-image:
-  caption: "Optional image caption or credit"
----
-```
-
-- Recommended optional fields
-  - `draft: true` to keep a post out of production builds until ready.
-  - `aliases:` to add legacy URLs (if you move or rename posts).
-
-- Content and media
-  - Put post-level images either in the same bundle folder (next to `index.md`) or under `assets/media/`.
-  - Use relative paths for images in the bundle, e.g. `![Caption](vscode-context-menu.png)` when the image is in the same folder.
-  - Prefer Hugo shortcodes for rich content when available (see `layouts/shortcodes/`).
-
-- Slug / permalink behavior
-  - The site uses the date and slug to build permalinks. Keep the date in front-matter and use a slug matching the folder name.
-
-- Preview & build (developer workflow)
-  - Start dev server:
-    - `hugo server --disableFastRender --bind=127.0.0.1 --port=1313`
-  - Local production-like build and index rebuild:
-    - `hugo --gc --minify -b http://example.com && npx pagefind --source 'public'`
-
-- Small checklist for new posts
-  1. Create `content/post/YYYY/YYYY-MM-DD-slug/index.md` and add front matter.
-  2. Add images to the same folder or `assets/media/` and verify paths.
-  3. Run `hugo server` and check the post renders and metadata (title, summary, author).
-  4. If ready for publish, remove `draft: true` (or ensure it's absent) and commit.
-
-- Examples
-  - Existing posts follow this pattern, e.g. `content/post/2025/2025-08-10-how-to-check-python-available-on-ur-device/index.md` and `content/post/2025/2025-08-06-vs-code-context-menu-missing/index.md` (see `content/post/2025/` for samples).
-
-If you'd like, I can also add a small helper script/template file under `scripts/` (or a `post_template.md`) that contributors can copy to create new posts consistently.
-
-## How to ask Copilot to scaffold a new post
-
-If you want Copilot (or any automated agent) to create a new post scaffold for you, use this exact filename/slug format so the tooling and humans can follow the same pattern.
-
-- Provide a folder name formatted as: `YYYY-MM-DD-your-slug` (e.g. `2025-08-15-github-copilot-generate-blog-post`).
-- The agent will create a folder under `content/post/<YEAR>/` (e.g. `content/post/2025/2025-08-15-github-copilot-generate-blog-post`) and add an `index.md` file inside it.
-- The `index.md` will contain YAML front matter with placeholders you can fill in or ask the agent to populate for you.
-
-Example prompt you can give the agent (exactly):
-
-"Create a new blog post scaffold: 2025-08-15-github-copilot-generate-blog-post. Leave placeholders for TITLE, SUMMARY, DATE, AUTHORS, TAGS, CATEGORIES and include content sections (Introduction, Steps, Conclusion)."
-
-What the scaffold will contain (index.md example):
-
-```md
----
-title: "TITLE"
-summary: "SUMMARY"
-date: 2025-08-15
-authors:
-  - admin
-tags:
-  - TAG1
-  - TAG2
-categories:
-  - Category1
-image:
-  caption: "IMAGE CAPTION"
-draft: true
----
-
-# Introduction
-
-[Write a short introduction here.]
-
-# Steps
-
-1. Step one
-2. Step two
-
-# Conclusion
-
-[Write a short conclusion here.]
-```
-
-The agent will create the folder and `index.md` scaffold exactly like the example. After that, you can either fill in the placeholders yourself or ask the agent to populate them from a short description.
-
-## Intelligent blog post creation workflow
-
-When the user asks for help creating a blog post with specific title and content, follow this enhanced workflow to generate a complete, well-formatted post:
-
-### Step 1: Generate complete YAML front matter
-- Use the provided title exactly as given by the user
-- Generate an appropriate `summary` (1-2 sentences) based on the content
-- Set the `date` to match the folder structure or current date
-- Add `authors: [admin]` by default
-- Generate relevant `tags` and `categories` based on the content topic
-- Include `image: caption: ""` placeholder
-- Set `draft: false` unless user specifies otherwise
-
-### Step 2: Format the content using Markdown
-- Preserve the user's exact wording and meaning
-- Convert URLs to clickable Markdown links: `[example.com](https://example.com)`
-- Add appropriate paragraph breaks for readability
-- Use blockquotes `>` for introductory or highlighted statements
-- Apply emphasis where it enhances readability:
-  - **Bold** for key terms or important points
-  - *Italics* for emphasis or tone
-- Structure content with headers if appropriate
-
-### Example transformation:
-User provides:
-```
-title: 分享日常生活既體驗
-content: 今日呢個blog post 是用來介紹我將用會sharechiwai.com 來分享...
-```
-
-Agent creates:
-```yaml
----
-title: "分享日常生活既體驗"
-summary: "用 [sharechiwai.com](https://sharechiwai.com) 記錄與分享平日生活的體驗，方便回顧與保存記憶。"
-date: 2025-08-13
-authors:
-  - admin
-tags:
-  - sharing
-  - personal
-  - life
-categories:
-  - sharing
-image:
-  caption: ""
-draft: false
----
-
-> 今日呢個blog post 是用來介紹我將用會[sharechiwai.com](https://sharechiwai.com) 來分享...
-```
-
-### Key principles:
-1. **Never rewrite or paraphrase** the user's content - preserve their exact words
-2. **Generate contextually appropriate** front matter fields
-3. **Format for readability** using Markdown features
-4. **Make URLs clickable** automatically
-5. **Ask for confirmation** only if the content structure is unclear
+If anything is unclear or you need deeper examples (front matter variants, shortcodes, or template entry points), ask and we’ll expand this guide.
