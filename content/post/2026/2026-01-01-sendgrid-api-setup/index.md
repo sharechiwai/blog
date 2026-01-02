@@ -1,6 +1,6 @@
 ---
 title: "Sendgrid Api Setup to send Email and read Quota Info"
-date: 2026-01-22
+date: 2026-01-01
 authors:
   - admin
 summary: "最近開始認真地使用 SendGrid Email API 來send Email。現在明白到cybersecurity 既重要性1, 所以便重新去setup 我的SendGrid API Key。"
