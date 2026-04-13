@@ -15,6 +15,7 @@ Thumbs.db
 
 # Node modules (if using npm or yarn)
 node_modules/
+package-lock.json
 
 # Logs
 *.log
