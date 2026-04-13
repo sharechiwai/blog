@@ -1,5 +1,5 @@
 [build]
-  command = "rm -rf node_modules && npm install && hugo --gc --minify -b $URL && npx pagefind --source 'public'"
+  command = "npm ci && hugo --gc --minify -b $URL && npx pagefind --source 'public'"
   publish = "public"
 
 [build.environment]
