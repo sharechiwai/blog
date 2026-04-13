@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && npm install @parcel/watcher-linux-x64-glibc --force && hugo --gc --minify -b $URL && npx pagefind --source 'public'"
+  command = "npm install --force && npm install @parcel/watcher-linux-x64-glibc --force && hugo --gc --minify -b $URL && npx pagefind --source 'public'"
   publish = "public"
 
 [build.environment]
