@@ -39,19 +39,20 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+# Custom links
+links:
+  - name: Code
+    url: 'https://github.com/HugoBlox/hugo-blox-builder'
+    icon: brands/github
+  - name: Dataset
+    url: 'https://github.com/HugoBlox/hugo-blox-builder'
+    icon: database
+  - name: Source
+    url: 'https://github.com/HugoBlox/hugo-blox-builder'
+    icon: code
+  - name: Video
+    url: 'https://youtube.com'
+    icon: youtube
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -67,21 +68,12 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
   - example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+> [!NOTE]
+> Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
+> [!NOTE]
+> Create your slides in Markdown - click the _Slides_ button to check out the example.
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

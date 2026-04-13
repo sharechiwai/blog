@@ -1,7 +1,10 @@
 ---
 title: Pandas
 date: 2023-10-26
-external_link: https://github.com/pandas-dev/pandas
+links:
+  - name: GitHub
+    url: https://github.com/pandas-dev/pandas
+    icon: brands/github
 tags:
   - Hugo
   - Wowchemy
