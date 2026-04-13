@@ -1,10 +1,9 @@
 ---
 title: 順景車仔麵 Menu
 subtitle: 順景車仔麵菜單 - Shun King Noodle
-draft: true
 
 # Summary for listings and search engines
-summary: 順景 炮台山 menu, 順景菜單,順景 炮台山外賣紙 
+summary: 順景 炮台山 menu, 順景菜單,順景 炮台山外賣紙
 
 # Link this post with a project
 projects: []

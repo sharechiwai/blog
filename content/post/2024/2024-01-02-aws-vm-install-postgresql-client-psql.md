@@ -1,7 +1,6 @@
 ---
 title: How to install PostgreSQL Client psql on AWS VM - 在AWS VM 上如何安裝 PostgreSQL Client
 subtitle: How to install PostgreSQL Client on AWS EC2
-draft: true
 
 # Summary for listings and search engines
 summary: How to install PostgreSQL Client on AWS EC2

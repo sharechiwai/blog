@@ -1,7 +1,6 @@
 ---
 title: How to extract query string from NextJs
 subtitle:  How to parse query string from NextJs
-draft: true
 
 # Summary for listings and search engines
 summary: NextJs API Query String

@@ -1,13 +1,12 @@
----
 # Display name
 title: Chi Yau
 
-# Name pronunciation (optional)
-# name_pronunciation: Chi Yau
-
-# Full name (for SEO)
-first_name: Chi
-last_name: Yau
+# Name structure
+name:
+  display: Chi Yau
+  given: Chi
+  family: Yau
+  pronunciation: Chi Yau
 
 # Status emoji
 status:
@@ -16,19 +15,21 @@ status:
 # Is this the primary user of the site?
 superuser: true
 
-# Highlight the author in author lists? (true/false)
+# Highlight the author in author lists?
 highlight_name: true
 
 # Role/position/tagline
 role: App Dev
 
-# Organizations/Affiliations to display in Biography blox
-organizations:
+# Biography/About Me
+bio: I'm Chi, a passionate tech enthusiast exploring the latest innovations in GenAI, LLMs, web development, performance tuning, and cybersecurity. As a tech guy at a startup, I aim to share my experiences, insights, and lessons learned in the fast-paced world of technology. Join me on this journey as we dive into the exciting challenges and triumphs of building and scaling tech solutions!
+
+# Organizations/Affiliations
+affiliations:
   - name: ShareChiWai
     url: https://sharechiwai.com/
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 links:
   - icon: brands/x
     url: https://twitter.com/sharechiwai
@@ -43,13 +44,13 @@ links:
     url: https://www.linkedin.com/in/chiwai/
     label: LinkedIn
 
+# Interests
 interests:
   - Performance Tuning
   - Building
-  - Tech Innovation 
+  - Tech Innovation
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
@@ -82,6 +83,7 @@ skills:
         percent: 80
         icon: camera
 
+# Languages
 languages:
   - name: English
     percent: 70
@@ -89,8 +91,3 @@ languages:
     percent: 100
   - name: Mandarin
     percent: 25
----
-
-## About Me
-
-I’m Chi, a passionate tech enthusiast exploring the latest innovations in GenAI, LLMs, web development, performance tuning, and cybersecurity. As a tech guy at a startup, I aim to share my experiences, insights, and lessons learned in the fast-paced world of technology. Join me on this journey as we dive into the exciting challenges and triumphs of building and scaling tech solutions!

@@ -1,7 +1,6 @@
 ---
 title: How to check all table size in postgresql - 在PostgreSQL 如何查詢資料庫所有Table的大小
 subtitle: Check table size in postgresql
-draft: true
 
 # Summary for listings and search engines
 summary: query all table size in postgresql

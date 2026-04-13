@@ -1,7 +1,6 @@
 ---
 title: How to check if your website has Enforcing HTTP Strict Transport Security
 subtitle: How to install PostgreSQL Client on AWS EC2
-draft: true
 
 # Summary for listings and search engines
 summary: How to check if your website has Enforcing HTTP Strict Transport Security

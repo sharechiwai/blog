@@ -1,10 +1,9 @@
 ---
 title: MOM LiveHouse Menu - Fortress Hill
-subtitle: MOM LiveHouse 外賣紙 
-draft: true
+subtitle: MOM LiveHouse 外賣紙
 
 # Summary for listings and search engines
-summary: MOM LiveHouse 炮台山 menu, 順景菜單,順景 炮台山外賣紙 
+summary: MOM LiveHouse 炮台山 menu, 順景菜單,順景 炮台山外賣紙
 
 # Link this post with a project
 projects: []

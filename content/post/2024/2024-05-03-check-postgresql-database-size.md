@@ -1,7 +1,6 @@
 ---
 title: How to check the size of database in postgresql - 在PostgreSQL 如何查詢資料庫大小
 subtitle: Check database size in postgresql
-draft: true
 
 # Summary for listings and search engines
 summary: query database size

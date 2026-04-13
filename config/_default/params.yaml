@@ -8,6 +8,14 @@ appearance:
   mode: system
   color: emerald
 
+# HugoBlox configuration
+hugoblox:
+  header:
+    search: true
+  search:
+    quick_actions: false
+    suggestions: false
+
 # SEO
 marketing:
   seo:

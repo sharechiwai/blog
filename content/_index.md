@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
+      text: "I'm Chi, a passionate tech enthusiast exploring the latest innovations in GenAI, LLMs, web development, performance tuning, and cybersecurity. As a tech guy at a startup, I aim to share my experiences, insights, and lessons learned in the fast-paced world of technology. Join me on this journey as we dive into the exciting challenges and triumphs of building and scaling tech solutions!"
     design:
       css_class: dark
       background:

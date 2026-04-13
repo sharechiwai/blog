@@ -1,7 +1,6 @@
 ---
 title: How to set environment variable globally on Linux - 在Linux 上如何設定環境變數
 subtitle: Set up Environment Variable for all user on Linux
-draft: true
 
 # Summary for listings and search engines
 summary: Set up Environment Variable for all user on Linux
