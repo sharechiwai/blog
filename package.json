@@ -26,6 +26,9 @@
     "pagefind": "^1.5.0",
     "tailwindcss": "^4.2.2"
   },
+  "optionalDependencies": {
+    "@tailwindcss/oxide-linux-x64-gnu": "latest"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
