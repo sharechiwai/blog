@@ -27,7 +27,9 @@
     "tailwindcss": "^4.2.2"
   },
   "optionalDependencies": {
-    "@tailwindcss/oxide-linux-x64-gnu": "latest"
+    "@tailwindcss/oxide-linux-x64-gnu": "4.2.2",
+    "lightningcss-linux-x64-gnu": "1.32.0",
+    "@parcel/watcher-linux-x64-glibc": "2.5.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
