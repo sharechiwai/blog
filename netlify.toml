@@ -1,5 +1,5 @@
 [build]
-  command = "rm -rf node_modules && npm install && npm install @parcel/watcher @parcel/watcher-linux-x64-glibc lightningcss-linux-x64-gnu @tailwindcss/oxide-linux-x64-gnu --force && hugo --gc --minify -b $URL && npx pagefind --source 'public'"
+  command = "npm ci --include=optional && hugo --gc --minify -b $URL && npx pagefind --source 'public'"
   publish = "public"
 
 [build.environment]
