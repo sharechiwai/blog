@@ -3,14 +3,12 @@ id: 4149
 title: Git Error Unlink of File failed. Should I try again?
 date: 2019-04-05T08:48:23+08:00
 author: ShareChiWai
-layout: post
-guid: https://blog.sharechiwai.com/?p=4149
-permalink: /2019/04/git-error-unlink-of-file-failed-should-i-try-again/
 categories:
   - Git
 tags:
   - Git
 ---
+
 
 久不久我使用的 `Git` 便會出現以下問題
 **Unlink of file. ' file path and name' failed. Should I try again? (y/n)**

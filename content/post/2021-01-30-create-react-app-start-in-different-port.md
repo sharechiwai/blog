@@ -2,13 +2,11 @@
 title: "How to run reactjs in different port"
 date: 2021-01-30T00:00:00+08:00
 author: ShareChiWai
-layout: post
-categories:
-  -
 tags:
   - ReactJs
   - create-react-app
 ---
+
 
 最近用了`NodeJs Express` 來做 Web App 的 Backend 用左 port `3000`  
 而`create-react-app` 既 default port 又係 `3000`  

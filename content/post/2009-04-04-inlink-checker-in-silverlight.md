@@ -3,11 +3,11 @@ id: 422
 title: InLink Checker in SilverLight
 date: 2009-04-04T04:04:00+08:00
 author: ShareChiWai
-layout: post
 
 categories:
   - Silverlight App
 ---
+
 
 I have updated the <span style="font-weight:bold;">Back-Link checker </span>Beta 1 to have another feature which allow us to check which links your site/page is linking to and is searchable by crawler.
 

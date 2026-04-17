@@ -2,13 +2,13 @@
 title: "How to get/check javascript execution time"
 date: 2021-07-03T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Javascript
 tags:
   - js
   - performance
 ---
+
 
 最近開始睇下D algorithm 既 tutorial  
 想了解下學左 / 用左會 efficient 幾多呢  

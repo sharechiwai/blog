@@ -2,7 +2,6 @@
 title: "upload copy file via ssh"
 date: 2021-02-12T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Linux
   - Ubuntu
@@ -15,6 +14,7 @@ tags:
   - upload file
   - ssh
 ---
+
 
 如何從 local machine 經 `ssh` 去 copy 檔案到 `raspberrypi` 上  
 **解決方法**十分簡單...

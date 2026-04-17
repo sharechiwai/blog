@@ -3,10 +3,10 @@ id: 380
 title: 'Cannot open CHM file in Windows XP/Vista- Navigation to the Webpage has been cancelled.'
 date: 2009-08-16T08:16:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Windows
 ---
+
 
 When I try to open <span style="font-weight:bold;">CHM </span>file on Windows XP or Windows Vista, it always display a message "<span style="color:rgb(51,102,255);font-weight:bold;">Navigation to the Webpage has been canceled.</span>".
 

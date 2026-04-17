@@ -2,7 +2,6 @@
 title: "Firebase ReactJs routing issue - Page not found"
 date: 2019-06-25T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Firebase
 tags:
@@ -10,6 +9,7 @@ tags:
   - NodeJs
   - Javascript
 ---
+
 
 使用 firebase hosting 來 host reactjs 既時候 出現了以下問題  
 當我直接在 browser 輸入 ReactJs 的 route 既時候 出現了

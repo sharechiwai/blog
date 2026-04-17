@@ -2,7 +2,6 @@
 title: "'python' no such file or directory"
 date: 2021-02-08T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Linux
   - Ubuntu
@@ -15,6 +14,7 @@ tags:
   - rp4
   - python
 ---
+
 
 嘗試安裝 `wifite` 時出現了一個 python 的 error  
 `'python' no such file or directory`

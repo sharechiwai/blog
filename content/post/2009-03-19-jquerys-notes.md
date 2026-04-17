@@ -3,18 +3,10 @@ id: 430
 title: "Jquery's Notes"
 date: 2009-03-19T03:19:00+08:00
 author: ShareChiWai
-layout: post
-guid: http://sharechiwai.wordpress.com/2009/03/19/jquerys-notes
-permalink: /2009/03/jquerys-notes/
-blogger_blog:
-  - ourchiwai.blogspot.com
-blogger_author:
-  - 智/Chi
-blogger_6870bb21ec74375fd3c4e74cc80d3a54_permalink:
-  - "6906755266741820197"
 categories:
   - Jquery Notes
 ---
+
 
 I am learning JQuery at the moment, and going to note down the error/mistake which I made while I am experimenting it.
 Hope you would find it useful if you encounter the same issue, while you are using JQuery. Please correct me if my concept is

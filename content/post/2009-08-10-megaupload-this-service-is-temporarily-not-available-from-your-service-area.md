@@ -3,18 +3,10 @@ id: 385
 title: MegaUpload -This service is temporarily not available from your service area
 date: 2009-08-10T08:10:00+08:00
 author: ShareChiWai
-layout: post
-guid: http://sharechiwai.wordpress.com/2009/08/10/megaupload-this-service-is-temporarily-not-available-from-your-service-area
-permalink: /2009/08/megaupload-this-service-is-temporarily-not-available-from-your-service-area/
-blogger_blog:
-  - sharechiwai.blogspot.com
-blogger_author:
-  - 智/Chi
-blogger_242190872ae71f6d0f1f8731ec21ccf3_permalink:
-  - "6747318123522496043"
 categories:
   - 電腦小貼事 Computing Tips and Tricks
 ---
+
 最近在香港嘗試 click 去 網上面朋友分享的下載網址時 [個file hosting company 係 <span style="font-weight:bold;">Megaupload </span>的 LINK]
 E.g. <http://www.megaupload.com/>
 便會出現以下的 message

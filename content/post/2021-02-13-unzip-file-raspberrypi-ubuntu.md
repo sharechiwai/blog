@@ -2,7 +2,6 @@
 title: "RaspberryPi unzip file via 7Zip"
 date: 2021-02-13T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Linux
   - Ubuntu
@@ -15,6 +14,7 @@ tags:
   - 7Zip
   - Unzip
 ---
+
 
 在 Linux / Ubuntu 上如何 unzip a Zip file
 

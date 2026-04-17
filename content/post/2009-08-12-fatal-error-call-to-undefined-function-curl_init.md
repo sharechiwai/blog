@@ -3,10 +3,10 @@ id: 383
 title: 'Fatal error: Call to undefined function curl_init() 問題'
 date: 2009-08-12T08:12:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - PHP 新手筆記
 ---
+
 
 今天想嘗試使用 <span style="font-weight:bold;">CURL </span>這個 MODULE 去 POST 一些 XML Data 到另一個 website,
 當我跟著網上的 example 試 code 的時候"

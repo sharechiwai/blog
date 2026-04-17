@@ -3,10 +3,10 @@ id: 434
 title: WordWrap on Crystal Report?
 date: 2009-03-07T03:07:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Crystal Report Tips and Tricks
 ---
+
 
 I have received a task to convert the project handbook from Word Document into Crystal report. It does not sound difficult until I need to do some formatting and Layout.
 

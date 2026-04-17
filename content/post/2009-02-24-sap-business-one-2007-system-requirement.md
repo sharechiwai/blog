@@ -2,13 +2,11 @@
 title: SAP Business One 2007 System Requirement
 date: 2009-02-24T21:48:00+08:00
 author: ShareChiWai
-layout: post
 
-blogger_author:
-  - 智/Chi
 categories:
   - SAP
 ---
+
 
 I have been searching for SAP Business One 2007 System Requirement for quite a long time. I am not sure why I cannot find it.
 

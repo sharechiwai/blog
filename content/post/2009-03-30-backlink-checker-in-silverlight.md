@@ -3,10 +3,10 @@ id: 426
 title: BackLink Checker in Silverlight
 date: 2009-03-30T03:30:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Silverlight App
 ---
+
 
 My second Silverlight application: <span style="font-weight:bold;">BackLink Checker Beta 1</span>.
 

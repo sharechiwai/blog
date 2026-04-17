@@ -2,15 +2,13 @@
 title: "redux - uncaught TypeError: Cannot read property 'apply' of undefined(…)"
 date: 2020-05-02T00:00:00+08:00
 author: ShareChiWai
-layout: post
-categories:
-  -
 tags:
   - reactjs
   - redux
   - troubleshoot
   - javascript
 ---
+
 
 剛剛在寫 reactjs publish 上去 Firebase 之後出現了以一的 error message  
 ``  

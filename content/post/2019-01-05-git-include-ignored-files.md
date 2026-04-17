@@ -3,7 +3,6 @@ id: 4088
 title: Git Include Ignored files
 date: 2019-01-05T00:00:44+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Git
 tags:
@@ -11,6 +10,7 @@ tags:
   - Source Control
   - VSCode
 ---
+
 
 今日嘗試在 git 上加入之前 用 **.gitignore** Ignore 左既 個 project folder 入面的 **.vscode**資料夾  
 剛剛更新了 project 入面的 **workspace setting**  

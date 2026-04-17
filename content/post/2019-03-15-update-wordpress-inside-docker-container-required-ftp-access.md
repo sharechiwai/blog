@@ -3,15 +3,13 @@ id: 4144
 title: Update WordPress Inside Docker Container Required FTP Access
 date: 2019-03-15T00:00:32+08:00
 author: ShareChiWai
-layout: post
-guid: https://blog.sharechiwai.com/?p=4144
-permalink: /2019/03/update-wordpress-inside-docker-container-required-ftp-access/
 categories:
   - Docker
 tags:
   - Docker
   - Wordpress
 ---
+
 
 今日 Update WordPress 既時候出現了  
 輸入 FTP 資料的畫面

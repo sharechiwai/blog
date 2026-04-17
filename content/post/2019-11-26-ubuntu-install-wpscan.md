@@ -2,7 +2,6 @@
 title: "Ubuntu install WPScan"
 date: 2019-11-26T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Ubuntu
 tags:
@@ -10,6 +9,7 @@ tags:
   - WPScan
   - WordPress
 ---
+
 
 之前介紹過用如何用 `Docker` 來執行 `WPScan`  
 來檢查 `Wordpress` 有沒有安全問題  

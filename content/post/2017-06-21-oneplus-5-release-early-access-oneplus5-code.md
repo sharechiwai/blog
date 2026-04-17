@@ -3,12 +3,12 @@ id: 3996
 title: 'OnePlus 5 Release - Early Access - OnePlus5 提早購買Code'
 date: 2017-06-21T06:30:37+08:00
 author: ShareChiWai
-layout: post
 categories:
   - News / 最新消息
 tags:
   - OnePlus5
 ---
+
 
 **OnePlus5** 終於 release 了
 一部性價比勁高的手機

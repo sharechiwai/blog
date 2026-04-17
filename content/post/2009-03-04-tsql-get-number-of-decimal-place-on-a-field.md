@@ -3,10 +3,10 @@ id: 435
 title: TSQL Get Number of Decimal Place (on a field)
 date: 2009-03-04T08:08:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - MSSQL Tips and Tricks
 ---
+
 
 Today I need to do a query to get all the record which has 3 decimal places on one of the field and process them by using different method.
 

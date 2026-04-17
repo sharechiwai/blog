@@ -2,14 +2,12 @@
 title: "SQL Server Management Studio (SSMS) shortcut to view Table Defination (sp_help)"
 date: 2020-11-03T00:00:00+08:00
 author: ShareChiWai
-layout: post
-categories:
-  -
 tags:
   - Microsoft SQL Server
   - SSMS
   - TSQL
 ---
+
 
 最近同事介紹左個好正既 SQL Server Management Studio (SSMS) 既 Shortcut key  
 用來 檢視 Table defination / information of database object  

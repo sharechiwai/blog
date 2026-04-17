@@ -3,7 +3,6 @@ type: "post"
 title: "apt-get update - public key is not available"
 date: 2021-03-08T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Linux
   - Ubuntu
@@ -16,6 +15,7 @@ tags:
   - Kali Linux
   - Ethical Hacking
 ---
+
 
 嘗試在 `Raspbian` 上加入 Kali Linux Repository Source List  
 但是在使用 `sudo apt-get update ` 時卻出現以下的 Error

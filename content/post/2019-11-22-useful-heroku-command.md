@@ -2,13 +2,13 @@
 title: "Useful Heroku command"
 date: 2019-11-22T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Heroku
 tags:
   - PaaS
   - Javascript
 ---
+
 
 最近又多用了 `Heroku` 無左 `Microsoft Azure` 既 subscription 又怕佢 charge 貴  
 用 free tier 時發現好似好多野都要收錢咁  

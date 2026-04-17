@@ -3,18 +3,10 @@ id: 429
 title: Trend Micro HouseCall on Vista/ Free online scan for antivirus
 date: 2009-03-23T03:23:00+08:00
 author: ShareChiWai
-layout: post
-guid: http://sharechiwai.wordpress.com/2009/03/23/trend-micro-housecall-on-vista-free-online-scan-for-antivirus
-permalink: /2009/03/trend-micro-housecall-on-vista-free-online-scan-for-antivirus/
-blogger_blog:
-  - ourchiwai.blogspot.com
-blogger_author:
-  - 智/Chi
-blogger_6870bb21ec74375fd3c4e74cc80d3a54_permalink:
-  - '3182792833262240597'
 categories:
   - Security/電腦保安
 ---
+
 
 I have installed <span style="font-weight: bold;">AVG Free</span> as anti-virus software on my laptop. I think they are quite good. Although it is quite safe, sometime I will use other online virus checker to scan my computer to ensure my computer is secure.
 

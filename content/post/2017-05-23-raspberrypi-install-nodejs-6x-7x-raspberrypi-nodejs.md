@@ -3,7 +3,6 @@ id: 3965
 title: 'RaspberryPi install NodeJs 6.x / 7.x - 如何在RaspberryPi 安裝 NodeJs'
 date: 2017-05-23T00:00:07+08:00
 author: ShareChiWai
-layout: post
 categories:
   - RaspberryPi
 tags:
@@ -13,6 +12,7 @@ tags:
   - RaspberryPi
   - RaspberryPi setup
 ---
+
 
 今日嘗試在**RaspberryPi**上安裝**Johnny-Five** /**CylonJs** 時出現**NodeJs** 的版本問題
 但是執行

@@ -3,7 +3,6 @@ id: 4029
 title: 'VS Code disable minimap - 如何在Visual Studio Code 上 Disable Minimap 這個 extension'
 date: 2017-09-17T15:39:12+08:00
 author: ShareChiWai
-layout: post
 
 categories:
   - Visual Studio
@@ -13,6 +12,7 @@ tags:
   - VSCode
   - VSCode Plugin
 ---
+
 
 **解決方法十分簡單:**
 我們可以去 "**File**" -> "**Preferences**" -> "Settings"

@@ -2,13 +2,13 @@
 title: "How to untrack committed file - 如果在git 上 untrack committed file"
 date: 2020-07-28T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Git
 tags:
   - Git
   - .gitignore
 ---
+
 
 今日需要在 git 上去 `gitignore` 一個之前已經 commit 了既 file
 

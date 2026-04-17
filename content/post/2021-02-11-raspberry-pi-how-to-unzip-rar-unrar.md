@@ -2,7 +2,6 @@
 title: "RaspberryPi how to unzip unrar"
 date: 2021-02-11T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Linux
   - Ubuntu
@@ -15,6 +14,7 @@ tags:
   - unrar
   - Linux Troubleshooting
 ---
+
 
 如何在 raspbian 上 unzip a rar 檔案 / 安裝 `unrar`
 

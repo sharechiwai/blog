@@ -3,14 +3,12 @@ id: 4140
 title: VSCode config trim trailing space when saving file
 date: 2019-03-13T00:00:23+08:00
 author: ShareChiWai
-layout: post
-guid: https://blog.sharechiwai.com/?p=4140
-permalink: /2019/03/vscode-config-trim-trailing-space-when-saving-file/
 categories:
   - Experience Share / 經驗分享
 tags:
   - VSCode
 ---
+
 
 如果有用開`source control`, 做 code view 或 compare files 時 whitespace / Tab 會造成一些不必要既麻煩  
 很多`IDE` 都有一些設定或 plugin 可以在你儲存檔案時除去尾隨空格  

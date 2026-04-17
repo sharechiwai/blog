@@ -2,7 +2,6 @@
 title: "How to resume SSH session - Ubuntu / RaspberryPi"
 date: 2021-02-06T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Linux
   - Ubuntu
@@ -15,6 +14,7 @@ tags:
   - rp4
   - Raspbian
 ---
+
 
 最近最左塊 `RaspberryPi4` 諗住用黎比屋企人做 Media Center  
 但係就咁放係度做 media center 好似有 D 浪費  

@@ -2,7 +2,6 @@
 title: 'Visual Studio Useful Shortcut'
 date: 2019-10-20T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Visual Studio
 tags:
@@ -11,6 +10,7 @@ tags:
   - dotnet
   - shortcut
 ---
+
 
 最近有一個 task 係要做一些 code clean up...  
 發現有很多重覆既動作..  

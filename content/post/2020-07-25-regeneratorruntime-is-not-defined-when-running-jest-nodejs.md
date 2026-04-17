@@ -2,7 +2,6 @@
 title: "ReferenceError: regeneratorRuntime is not defined jest nodejs"
 date: 2020-07-25T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - NodeJs
 tags:
@@ -10,6 +9,7 @@ tags:
   - Jest
   - Unit Test
 ---
+
 
 今日係 NodeJs 上用 Jest 寫 Unit Test 時出現了以下錯誤信息  
 `ReferenceError: regeneratorRuntime is not defined`

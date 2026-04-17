@@ -2,13 +2,13 @@
 title: "JS format JSON"
 date: 2019-11-23T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Javascript
 tags:
   - JSON
   - Javascript
 ---
+
 
 如何用 `Javascript` format `JSON`  
 **解決方法:**  

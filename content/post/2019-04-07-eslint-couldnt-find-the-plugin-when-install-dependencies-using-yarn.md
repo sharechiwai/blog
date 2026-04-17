@@ -3,7 +3,6 @@ id: 4156
 title: "ESLint couldnt find the plugin  (when install dependencies using yarn)"
 date: 2019-04-07T11:25:53+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Javascript
 tags:
@@ -11,6 +10,7 @@ tags:
   - Npm
   - yarn
 ---
+
 
 今日嘗試用 command line (CLI) 執行 **ESLint** 時出現了以下的錯誤信息
 

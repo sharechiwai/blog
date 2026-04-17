@@ -3,13 +3,12 @@ id: 4117
 title: 'C# Distinct List of Object'
 date: 2019-02-16T12:14:51+08:00
 author: ShareChiWai
-layout: post
-permalink: /2019/02/c-distinct-list-of-object/
 categories:
   - .Net Tips And Tricks
 tags:
   - LINQ
 ---
+
 
 今日在`Code Review` 同事的 Code 時候發現了一個有趣的寫法  
 他想做的是 Return 一個`Distinct` 左既 `List Of Object`

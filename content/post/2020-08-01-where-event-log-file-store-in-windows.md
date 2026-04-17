@@ -2,13 +2,13 @@
 title: "Where Event Log files store on Windows - Event Log 檔案在那裡"
 date: 2020-08-01T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Windows
   - 電腦小貼事 Computing Tips and Tricks
 tags:
   - Event Log
 ---
+
 
 最近用了`Windows Defender` 的 `offline mode` 來 scan 電腦睇下有無中毒...  
 有時電腦有 Error 都可以使用 `Windows` 的 `Event Viewer`  

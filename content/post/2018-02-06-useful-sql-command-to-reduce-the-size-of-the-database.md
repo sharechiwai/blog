@@ -3,7 +3,6 @@ id: 4049
 title: Useful SQL command to reduce the size of the database
 date: 2018-02-06T09:30:04+08:00
 author: ShareChiWai
-layout: post
 categories:
   - MSSQL Tips and Tricks
 tags:
@@ -11,6 +10,7 @@ tags:
   - Database Management
   - Useful SQL Command
 ---
+
 
 今日想和大家分享一個 幾有用的**TSQL Command**, 去 Release 返一些**SQL Server** 佔用的空間  
 **Transaction log** 和**Database file**

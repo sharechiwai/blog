@@ -3,7 +3,6 @@ id: 3972
 title: Chocolatey Update All Package -Chocolatey更新所有Package
 date: 2017-05-22T21:42:59+08:00
 author: ShareChiWai
-layout: post
 categories:
   - 電腦小貼事 Computing Tips and Tricks
 tags:
@@ -11,6 +10,7 @@ tags:
   - Package Manager
   - PowerShell
 ---
+
 
 之前同事介紹了 如何使用 **Chocolately** 來安裝軟件
 現在發現他和其他**Package Manager** 一樣

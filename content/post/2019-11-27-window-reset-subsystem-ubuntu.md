@@ -2,7 +2,6 @@
 title: "Windows reset subsystem - Ubuntu"
 date: 2019-11-27T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Windows Subsystem
 tags:
@@ -10,6 +9,7 @@ tags:
   - WSL
   - Ubuntu
 ---
+
 
 最近想嘗試 reset 由頭再安裝 `Windows Subsystem` 上的 `Ubuntu`  
 開頭以入只要 在 `Windows Store` Uninstall 了便可  

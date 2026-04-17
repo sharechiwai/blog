@@ -3,18 +3,10 @@ id: 384
 title: ASP.Net GridView RowCommand did not get trigger
 date: 2009-08-11T08:11:00+08:00
 author: ShareChiWai
-layout: post
-guid: http://sharechiwai.wordpress.com/2009/08/11/asp-net-gridview-rowcommand-did-not-get-trigger
-permalink: /2009/08/asp-net-gridview-rowcommand-did-not-get-trigger/
-blogger_blog:
-  - sharechiwai.blogspot.com
-blogger_author:
-  - 智/Chi
-blogger_242190872ae71f6d0f1f8731ec21ccf3_permalink:
-  - '1031693772412055032'
 categories:
   - ASP.Net Tips and Tricks
 ---
+
 
 I was stuck in a <span style="font-weight:bold;">GridView RowCommand</span> problem for a long time. Not sure why the <span style="font-weight:bold;">RowCommand </span>did not get trigger"
 Here is my situation:

@@ -3,10 +3,10 @@ id: 386
 title: PHP Session Problem
 date: 2009-08-09T23:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - PHP 新手筆記
 ---
+
 
 When I try to use the Session variable in PHP \$\_Session["VariableName"], it does not work".
 The session never get registered.

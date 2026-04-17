@@ -3,7 +3,6 @@ id: 3993
 title: ASP.net Core SPA Single Page Application Template Generator with angular, aurelia, knockout, react
 date: 2017-06-20T06:51:03+08:00
 author: ShareChiWai
-layout: post
 categories:
   - .net core
 tags:
@@ -11,6 +10,7 @@ tags:
   - dotnet core
   - SPA
 ---
+
 
 最近開始學 **Angular 4** / **React**
 但是不知道怎樣開始

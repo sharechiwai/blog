@@ -3,13 +3,13 @@ id: 4095
 title: Visual Studio CodeLens show no Reference
 date: 2019-01-07T10:34:06+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Visual Studio
 tags:
   - CodeLens
   - Visual Studio Troubleshooting
 ---
+
 
 最近我的**Visual Studio** 的 **CodeLens** 沒有再顯示 **Class**/ **Method** 有多 reference ..
 只係顯示了 "**-**"... 十分不方便 <figure class="wp-block-image">

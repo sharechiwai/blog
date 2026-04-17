@@ -3,11 +3,11 @@ id: 381
 title: '開啟 CHM 說明檔 問題 (XP/VISTA) - 已取消瀏覽該網頁'
 date: 2009-08-15T08:15:00+08:00
 author: ShareChiWai
-layout: post
 
 categories:
   - 電腦小貼事 Computing Tips and Tricks
 ---
+
 
 <div>
   最近當我在Windows XP/Vista 開啟<span style="font-weight:bold;">CHM </span>格式的檔案時出現以下的信息

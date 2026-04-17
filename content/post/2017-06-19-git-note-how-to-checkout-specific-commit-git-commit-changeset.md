@@ -3,7 +3,6 @@ id: 3990
 title: 'Git note - How to checkout specific commit - Git 如何checkout 之前的Commit / Changeset'
 date: 2017-06-19T07:12:42+08:00
 author: ShareChiWai
-layout: post
 
 categories:
   - Git
@@ -12,6 +11,7 @@ tags:
   - Git Command
   - Git Tips and Tricks
 ---
+
 
 常常很大意地 **merge**完一些程式碼後沒有測試便**Commit** 和**Pull** 了到 Remote Repo
 所以便要用 一些 git command 來還原之前的 Commit 再去解決問題

@@ -3,11 +3,11 @@ id: 379
 title: Convert Date to Month Name in .Net
 date: 2009-08-17T08:17:00+08:00
 author: ShareChiWai
-layout: post
 
 categories:
   - .Net Tips And Tricks
 ---
+
 
 Today, my friend and I tried to find a way to convert date to a month name. E.g. 2008-08-08 to return August.
 

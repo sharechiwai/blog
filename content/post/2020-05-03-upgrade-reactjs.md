@@ -2,14 +2,12 @@
 title: "Upgrade ReactJS - module build failed - Cannot find module 'js-levenshtein' "
 date: 2020-05-03T00:00:00+08:00
 author: ShareChiWai
-layout: post
-categories:
-  -
 tags:
   - reactjs
   - create-react-app
   - javascript
 ---
+
 
 用了 ReactJS 一段時間...想看看有沒有更新可以使用..  
 希望可以使用 `yarn upgrade` 來更新...  

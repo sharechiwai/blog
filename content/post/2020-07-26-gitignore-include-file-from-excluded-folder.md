@@ -2,12 +2,12 @@
 title: ".gitignore include a file from excluded folder"
 date: 2020-07-26T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Git
 tags:
   - Git
 ---
+
 
 最近朋友介紹使用[Codecov](https://codecov.io/) 來顯示 project 上的 Unit Test 既 Code Coverage  
 由於他需要把資料夾`coverage` 上的 一個檔案 `clover.xml` 放進 repository 上..  

@@ -2,13 +2,13 @@
 title: 'XSD restriction for either specific string or number (mixture type)'
 date: 2019-10-23T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - XML
 tags:
   - XML
   - XSD
 ---
+
 
 如果在**XSD restriction** 上 容許 mix restriction (mix data type) 呢?  
 **解決方法:**  

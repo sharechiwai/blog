@@ -3,7 +3,6 @@ id: 4039
 title: Git refusing to merge unrelated histories
 date: 2017-12-12T10:11:24+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Git
 tags:
@@ -12,6 +11,7 @@ tags:
   - Git Tips and Tricks
   - Git Troubleshooting
 ---
+
 
 今日剛在**Bitbucket** 建立左一個新既 repos  
 當我嘗試 push local 的一個 **git repos**上去既時候出現了以下的錯誤信息

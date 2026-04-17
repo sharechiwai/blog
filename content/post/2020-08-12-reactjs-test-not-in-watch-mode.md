@@ -2,7 +2,6 @@
 title: "Create-React-App test without watch mode"
 date: 2020-08-12T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Javascript
   - ReactJs
@@ -12,6 +11,7 @@ tags:
   - Unit Test
   - Open Source
 ---
+
 
 最近嘗試在 `React App` 上加入 `Coverage Report`...  
 可能是因為是用了`create-react-app`

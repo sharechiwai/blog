@@ -2,12 +2,10 @@
 title: "git rewrite commit author"
 date: 2021-02-01T00:00:00+08:00
 author: ShareChiWai
-layout: post
-categories:
-  -
 tags:
   - git
 ---
+
 
 最近發現自己有些 Git Repository 的 Git Author name 用錯了 account  
 ![git commit history with author name](/media/2021/git-batch-amend-commit-author-name.png "git commit history with author name")

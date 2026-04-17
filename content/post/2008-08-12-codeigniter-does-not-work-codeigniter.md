@@ -3,15 +3,11 @@ id: 18
 title: CodeIgniter does not work — CodeIgniter 不能 顯示 $name入面的內容
 date: 2008-08-12T01:00:07+08:00
 author: ShareChiWai
-layout: post
-guid: http://sharechiwai.wordpress.com/?p=18
-permalink: '/2008/08/codeigniter-does-not-work-codeigniter'
-jabber_published:
-  - '1281805587'
 categories:
   - Codeingter
   - PHP 新手筆記
 ---
+
 
 今日在學習<span style="color:#339966;">CodeIgniter </span>時
 嘗試隨著 <span style="color:#339966;">CodeIgniter</span>的教學建立一些 Sample Website

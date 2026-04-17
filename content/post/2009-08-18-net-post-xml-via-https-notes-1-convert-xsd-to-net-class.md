@@ -3,13 +3,13 @@ id: 378
 title: '.Net Post XML via HTTPS Notes 1 [Convert XSD to .Net Class]'
 date: 2009-08-18T18:18:00+08:00
 author: ShareChiWai
-layout: post
 
 categories:
   - .Net Tips And Tricks
   - Web Services
   - XML
 ---
+
 
 最近公司有一個 project 是要用另外一間公司的 XML Interface 既 Webservice 去做 exchange data.
 其實只要這間公司提供 WSDL 既 Address 給我們

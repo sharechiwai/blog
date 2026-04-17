@@ -3,11 +3,11 @@ id: 432
 title: Crystal report XI Service Packs 5 solve the PDF font size get reduced/smaller issue
 date: 2009-03-11T18:15:00+08:00
 author: ShareChiWai
-layout: post
 
 categories:
   - Crystal Report Tips and Tricks
 ---
+
 
 Today I just have a look at the documentation about Crystal report XI Service Packs 5, which has released at the end of Nov 2008.
 They have mention the PDF generation issue which I posted few days ago about PDF font size get reduced after you export it from crystal report.

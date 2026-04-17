@@ -2,7 +2,6 @@
 title: "Choco check if package already installed / outated"
 date: 2019-06-28T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Chocolatey
 tags:
@@ -11,6 +10,7 @@ tags:
   - package manager
   - PowerShell
 ---
+
 
 今日想檢查一下 電腦上用 `Chocolatey` 安裝的 NodeJs 有沒有 outdated  
 所以便想找個 Choco command 來看看

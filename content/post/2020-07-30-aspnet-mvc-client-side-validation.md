@@ -2,13 +2,13 @@
 title: "ASP.Net MVC client-side validation"
 date: 2020-07-30T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - ASP Net MVC
 tags:
   - DotNet
   - ASP Net MVC
 ---
+
 
 好耐都無掂過 ASP.Net MVC...  
 之前有朋友叫我幫佢睇下個 project  

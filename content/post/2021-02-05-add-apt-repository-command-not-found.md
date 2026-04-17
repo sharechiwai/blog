@@ -2,7 +2,6 @@
 title: "add-apt-repository: command not found"
 date: 2021-02-05T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Linux
   - Ubuntu
@@ -15,6 +14,7 @@ tags:
   - Monitor
   - Linux Troubleshooting
 ---
+
 
 嘗試加入新的 package repository 時出現了以下 error  
 `add-apt-repository: command not found`  

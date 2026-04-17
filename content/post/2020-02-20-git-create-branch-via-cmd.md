@@ -2,12 +2,12 @@
 title: "git Create branch via Command"
 date: 2020-02-20T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - git
 tags:
   - git
 ---
+
 
 很多時候都是使用BitBucket / Github 去create 新branch  
 但是久不久BitBucket 的 選擇 Branch的選項..總是選擇不到 `UAT` 的  

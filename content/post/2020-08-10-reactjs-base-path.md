@@ -2,7 +2,6 @@
 title: "ReactJs set base path - "
 date: 2020-08-10T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Javascript
   - ReactJs
@@ -12,6 +11,7 @@ tags:
   - config
   - Open Source
 ---
+
 
 係 GitHub 用 GitHub Page Host 果個 ReactJs Project  
 由於個 Page 係 Subfolder 同 存放  

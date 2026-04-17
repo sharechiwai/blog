@@ -2,13 +2,11 @@
 title: "Manifest: found icon with no valid size."
 date: 2020-05-05T00:00:00+08:00
 author: ShareChiWai
-layout: post
-categories:
-  -
 tags:
   - pwa
   - manifest
 ---
+
 
 今日睇 Chrome 個 console 見到以下的 error message  
 `Manifest: found icon with no valid size.`

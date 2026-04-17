@@ -2,12 +2,12 @@
 title: "TSQL Variable Scope fun finding"
 date: 2020-01-23T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - TSQL
 tags:
   - TSQL
 ---
+
 
 最近同事 發現了一個有趣既 TSQL behaviour  
 在一般既情況下 Variable 應該是有一個scope 的  

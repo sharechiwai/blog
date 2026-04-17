@@ -3,7 +3,6 @@ id: 4006
 title: 'LetsEncrypt Renew - Lets Encrypt SSL 更新'
 date: 2017-06-27T06:51:11+08:00
 author: ShareChiWai
-layout: post
 categories:
   - UBuntu
 tags:
@@ -12,6 +11,7 @@ tags:
   - Ubuntu
   - VPS
 ---
+
 
 差不多每三個月 **Let's Encrypt Expiry Bot**
 便會**Email** 我說.. 我的**SSL** 後快便會到期**Expire**

@@ -3,7 +3,6 @@ id: 4011
 title: ASP.Net Core Enable Development Error
 date: 2017-07-01T12:07:06+08:00
 author: ShareChiWai
-layout: post
 categories:
   - .net core
 tags:
@@ -11,6 +10,7 @@ tags:
   - dotnet core
   - dotnet tips and tricks
 ---
+
 
 由於不太了解 **ASP.Net Core with Angular / React Webpack** 的關係
 當遇到有 **Angular** / **React**的問題是都不知道那裡出錯

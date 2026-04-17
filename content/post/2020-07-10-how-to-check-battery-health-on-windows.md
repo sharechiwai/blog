@@ -2,7 +2,6 @@
 title: "How to check battery health on Windows - 如果在Windows 上檢查電池健康度."
 date: 2020-07-10T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - 電腦小貼事 Computing Tips and Tricks
 tags:
@@ -10,6 +9,7 @@ tags:
   - Computing Tips and Tricks
   - 電腦小貼事
 ---
+
 
 今日無聊時發現了 `Windows` 有一個可以檢查電池健康度既 Command 十分有趣  
 我們只需要在 Windows 的 `Command Prompt` 上輸入以下的指令  

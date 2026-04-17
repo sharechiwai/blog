@@ -2,12 +2,12 @@
 title: 'How to set Environment Variable on NodeJS'
 date: 2019-06-25T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - NodeJs
 tags:
   - NodeJs, Javascript
 ---
+
 
 ###如何設定 NodeJs Environment Variable  
 

@@ -3,7 +3,6 @@ id: 3977
 title: 'ASP.Net Core App can NOW be deploy to Azure - (Azure web app)'
 date: 2017-05-25T07:09:21+08:00
 author: ShareChiWai
-layout: post
 categories:
   - ASP.Net MVC
 tags:
@@ -12,6 +11,7 @@ tags:
   - Azure
   - Microsoft Azure
 ---
+
 
 回到香港可能工作時間比較長所以回家後都沒有心情像以前一樣做些和電腦相關的事
 到剛去完旅遊..終於有些自己時間靜下來"

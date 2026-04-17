@@ -3,7 +3,6 @@ id: 4074
 title: Code-Playground
 date: 2019-01-02T00:00:50+08:00
 author: ShareChiWai
-layout: post
 categories:
   - .Net Tips And Tricks
 tags:
@@ -11,6 +10,7 @@ tags:
   - dotnet core
   - React
 ---
+
 
 發覺返到香港越來越難集中去做自己既 project  
 連 blog 都少寫了  

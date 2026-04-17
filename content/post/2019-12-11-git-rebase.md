@@ -2,12 +2,12 @@
 title: "Git Your branch have diverged and have 1 and 1 different commits each, respectively"
 date: 2019-12-11T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - git
 tags:
   - git
 ---
+
 
 最近同同事一齊用同一個 branch 寫 code  
 誰不知..呢隻同事..十分喜歡 `rebase`

@@ -3,7 +3,6 @@ id: 3982
 title: 'Enable dotnet watch - on asp.net core'
 date: 2017-05-31T22:00:20+08:00
 author: ShareChiWai
-layout: post
 categories:
   - .net core
 tags:
@@ -11,6 +10,7 @@ tags:
   - dotnet core
   - dotnet tips and tricks
 ---
+
 
 最近開始學習 **.Net Core** 的 **ASP.Net Core**
 發現現在.net 越來越方便了

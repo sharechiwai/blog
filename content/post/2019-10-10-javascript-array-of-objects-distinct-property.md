@@ -2,7 +2,6 @@
 title: 'How to get distinct values from an array of objects in JavaScript '
 date: 2019-06-25T00:00:00+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Javascript
 tags:
@@ -10,6 +9,7 @@ tags:
   - Javascript
   - ES5
 ---
+
 
 今日有個 task 其中一個地方要在 Array of Json object 中  
 Distinct 一個 property  

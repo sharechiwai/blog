@@ -3,7 +3,6 @@ id: 3984
 title: dotnet watch does not refresh content for AspNetCore.SpaTemplates React / Angular
 date: 2017-06-04T19:43:31+08:00
 author: ShareChiWai
-layout: post
 categories:
   - .Net Tips And Tricks
 tags:
@@ -14,6 +13,7 @@ tags:
   - ReactJs
   - webpack
 ---
+
 
 最近使用了 **ASP.Net Core** 的 **SPA Template** 來學習 **ReactJs**
 因為我可以使用 **ASP.Net Core** 來做 **Web API**.. 而 **ReactJs** 來做 Web **Front End**

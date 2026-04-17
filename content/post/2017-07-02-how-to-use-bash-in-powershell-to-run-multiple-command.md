@@ -3,7 +3,6 @@ id: 4015
 title: 'How to use && (bash) in powershell to run multiple command'
 date: 2017-07-02T09:32:05+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Powershell
 tags:
@@ -11,6 +10,7 @@ tags:
   - PowerShell
   - VSCode
 ---
+
 
 在這間公司工作..
 我學會了很多 command (多數是在 bash [git bash] 上使用的)

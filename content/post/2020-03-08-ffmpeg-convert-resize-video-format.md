@@ -2,15 +2,13 @@
 title: "FFmpeg convert resize video - 使用FFmpeg 來轉換視訊格式"
 date: 2020-03-08T00:00:00+08:00
 author: ShareChiWai
-layout: post
-categories:
-  -
 tags:
   - ffmpeg
   - Convert Video
   - Convert Audio
   - Free software
 ---
+
 
 使用 `FFmpeg` 來轉換 Video 格式十分容易的  
 首先要知道`FFmpeg` 可以轉換那些 format

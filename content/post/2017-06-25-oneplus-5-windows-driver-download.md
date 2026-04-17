@@ -3,7 +3,6 @@ id: 4001
 title: OnePlus 5 Windows Driver Download
 date: 2017-06-25T09:50:13+08:00
 author: ShareChiWai
-layout: post
 categories:
   - 電腦小貼事 Computing Tips and Tricks
 tags:
@@ -11,6 +10,7 @@ tags:
   - One Plus 5
   - OnePlus5
 ---
+
 
 唔知點解將**OnePlus** 用 **USB** 線連接了 電腦後 **Windows 10** 認不到那部 **OnePlus5**
 

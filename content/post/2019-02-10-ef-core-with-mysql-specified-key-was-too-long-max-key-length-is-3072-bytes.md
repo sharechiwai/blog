@@ -3,7 +3,6 @@ id: 4109
 title: EF Core with MySQL Specified key was too long; max key length is 3072 bytes
 date: 2019-02-10T09:26:52+08:00
 author: ShareChiWai
-layout: post
 categories:
   - .net core
 tags:
@@ -12,6 +11,7 @@ tags:
   - Entity Framework 筆記
   - mysql
 ---
+
 
 <!--StartFragment-->
 

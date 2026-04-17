@@ -3,7 +3,6 @@ id: 4113
 title: Git Check which branch contain specific commit
 date: 2019-02-10T00:00:44+08:00
 author: ShareChiWai
-layout: post
 categories:
   - Git
 tags:
@@ -11,6 +10,7 @@ tags:
   - Git Command
   - Git Tips and Tricks
 ---
+
 
 今日公司個 Production project 有一個 Bug 但係在 Staging 和 UAT environment 都 replicate 唔到呢個問題..  
 之後便用**Git Blame** 去檢查一下有什麼 code change  

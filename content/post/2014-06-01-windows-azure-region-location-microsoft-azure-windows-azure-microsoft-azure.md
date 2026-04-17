@@ -3,15 +3,13 @@ id: 3207
 title: 'Windows Azure Region Location - Microsoft Azure 終於開始使用Windows/ Azure Microsoft Azure 了'
 date: 2014-06-01T00:00:53+08:00
 author: ShareChiWai
-layout: post
-guid: http://blog.sharechiwai.com/?p=3207
-permalink: '/2014-06-01-windows-azure-region-location-microsoft-azure-windows-azure-microsoft-azure/'
 categories:
   - Windows Azure
 tags:
   - Linux
   - Microsoft Azure
 ---
+
 
 由于朋友怕嘗試更改**VPS** 的 **Config**導致我的網頁不能顯示..
 或會令到資料不見了的關係
