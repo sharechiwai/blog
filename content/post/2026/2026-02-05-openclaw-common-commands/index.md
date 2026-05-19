@@ -29,6 +29,20 @@ openclaw restart gateway
 
 ```
 
+Edit configuration:
+
+```bash
+# 編輯 openclaw configuration via nano
+nano ~/.openclaw/openclaw.json
+```
+
+Security updates:
+
+```bash
+# 更新 openclaw server
+sudo dnf upgrade-minimal --security -y
+```
+
 ## Tips
 
 記得經常使用 `--help` 參數嚟查看可用嘅選項同參數。
