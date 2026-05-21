@@ -15,6 +15,22 @@ hugoblox:
   search:
     quick_actions: false
     suggestions: false
+  analytics:
+    google:
+      measurement_id: "G-MPRQC0QNY8"
+    clarity:
+      project_id: "l3qqjvon35"
+    baidu:
+      site_id: ""
+    plausible:
+      domain: ""
+    fathom:
+      site_id: ""
+    pirsch:
+      site_id: ""
+  verification:
+    google: ""
+    baidu: ""
 
 # SEO
 marketing:
