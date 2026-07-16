@@ -1,5 +1,5 @@
 ---
-title: fatal: branch is already used by worktree at
+title: "fatal: branch is already used by worktree at"
 date: 2026-03-16
 authors:
   - admin
