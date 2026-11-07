@@ -42,8 +42,13 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 80
   anchor: smart
+  jpeg:
+    quality: 80
+  webp:
+    quality: 80
+  avif:
+    quality: 80
 timeout: 600000
 taxonomies:
   author: authors
@@ -56,6 +61,8 @@ markup:
     lineNos: false
 security:
   _merge: deep
+  exec:
+    allow: ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
 sitemap:
   _merge: deep
 minify:

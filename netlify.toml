@@ -1,20 +1,21 @@
 [build]
-  command = "npm ci --include=optional && hugo --gc --minify -b $URL && curl -fsSL -o pagefind.tar.gz https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind-v1.5.2-x86_64-unknown-linux-musl.tar.gz && tar -xzf pagefind.tar.gz && chmod +x ./pagefind && ./pagefind --source 'public'"
+  command = "npm ci --include=optional && hugo --gc --minify -b $URL && curl -fsSL -o pagefind.tar.gz https://github.com/Pagefind/pagefind/releases/download/v1.6.0/pagefind-v1.6.0-x86_64-unknown-linux-musl.tar.gz && tar -xzf pagefind.tar.gz && chmod +x ./pagefind && ./pagefind --source 'public'"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.160.1"
+  HUGO_VERSION = "0.169.0"
   HUGO_ENABLEGITINFO = "true"
   NODE_ENV = "development"
+  NODE_VERSION = "24.11.1"
 
 [context.production.environment]
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL && curl -fsSL -o pagefind.tar.gz https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind-v1.5.2-x86_64-unknown-linux-musl.tar.gz && tar -xzf pagefind.tar.gz && chmod +x ./pagefind && ./pagefind --source 'public'"
+  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL && curl -fsSL -o pagefind.tar.gz https://github.com/Pagefind/pagefind/releases/download/v1.6.0/pagefind-v1.6.0-x86_64-unknown-linux-musl.tar.gz && tar -xzf pagefind.tar.gz && chmod +x ./pagefind && ./pagefind --source 'public'"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL && curl -fsSL -o pagefind.tar.gz https://github.com/Pagefind/pagefind/releases/download/v1.5.2/pagefind-v1.5.2-x86_64-unknown-linux-musl.tar.gz && tar -xzf pagefind.tar.gz && chmod +x ./pagefind && ./pagefind --source 'public'"
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL && curl -fsSL -o pagefind.tar.gz https://github.com/Pagefind/pagefind/releases/download/v1.6.0/pagefind-v1.6.0-x86_64-unknown-linux-musl.tar.gz && tar -xzf pagefind.tar.gz && chmod +x ./pagefind && ./pagefind --source 'public'"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
